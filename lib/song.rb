@@ -16,7 +16,7 @@ require 'pry'
     @@genres << genre
   end
 
-   def self.count 
+   def self.count
     @@count
   end
 
@@ -40,4 +40,4 @@ require 'pry'
     artist_count
   end
 
- end 
+ end
