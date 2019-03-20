@@ -3,14 +3,13 @@ class Song
   @@count = 0 #Class Variables
   @@artist = []
   @@genre = []
-  def intialize(name, artist, genres)
+  def intialize(name, artists, genres)
     @name = name
     @artist = artist
     @genres = genre
     @@count += 1
-    @@artist << artist
+    @@artists << artist
     @@genres << genre
-
   end
 
 end
