@@ -1,8 +1,8 @@
 class Song
   attr_accessor :genre, :artist, :genre
   @@count = 0 #Class Variables
-  @@artist = []
-  @@genre = []
+  @@artists = []
+  @@genres = []
   def intialize(name, artists, genres)
     @name = name
     @artist = artist
